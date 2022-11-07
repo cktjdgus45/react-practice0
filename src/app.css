@@ -1,0 +1,14 @@
+.profile {
+    width: 200px;
+    text-align: center;
+    background-color: #ebebeb;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
