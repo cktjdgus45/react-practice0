@@ -1,4 +1,5 @@
 .profile {
+    position: relative;
     width: 200px;
     text-align: center;
     background-color: #ebebeb;
@@ -12,4 +13,19 @@
     width: 200px;
     height: 200px;
     border-radius: 100%;
+}
+
+.new {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    padding: 0.3rem;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 5px;
+    display: none;
+}
+
+.shown {
+    display: block;
 }
