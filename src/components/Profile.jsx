@@ -1,12 +1,15 @@
 import React from 'react';
+import Avatar from './Avatar';
 
-const Profile = (props) => {
+const Profile = ({ image,
+    isNew,
+    name,
+    job }) => {
     return (
         <div className='profile'>
-            <img className='photo' src={props.image} alt="avatar" />
-            {props.isNew && <span className='new shown'>New</span>}
-            <h1>{props.name}</h1>
-            <p>{props.job}</p>
+            <Avatar image={image} isNew={isNew} />
+            <h1>{name}</h1>
+            <p>{job}</p>
         </div>
     )
 }
