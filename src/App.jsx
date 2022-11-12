@@ -1,9 +1,9 @@
-import MouseFollower from './components/MouseFollower';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <MouseFollower />
+      <Counter />
     </div>
   );
 }

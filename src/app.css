@@ -6,18 +6,3 @@ body {
     margin: 0;
 }
 
-.field {
-    position: relative;
-    width: 100vw;
-    height: 100vw;
-    background-color: antiquewhite;
-}
-
-.circle {
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    background-color: tomato;
-    position: absolute;
-    display: block;
-}
